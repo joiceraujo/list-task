@@ -1,0 +1,56 @@
+body {
+    background-image: url(Inside-Out-HD-Wallpaper-Background-Image-1920x1080-ID-.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1{
+    color: white;
+}
+
+#box {
+    padding: 10px;
+    background-color: mediumpurple;
+    margin-top: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+header {
+    margin-top: 30px;
+}
+
+#lista-tarefas {
+    text-align: center;
+    display: inline-block;
+}
+
+#funcionamento {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.selected {
+    background-color: rgb(128, 128, 128)
+}
+
+.selectedTask {
+    background-color: rgb(128, 128, 128)
+}
+
+footer {
+    background-color: mediumpurple;
+    color: white;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
