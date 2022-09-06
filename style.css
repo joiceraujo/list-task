@@ -1,35 +1,20 @@
 body {
-    background-image: url(Inside-Out-HD-Wallpaper-Background-Image-1920x1080-ID-.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8D6CB;
+    margin-left: 35%;
+    margin-top: 10%;
 }
 
-h1{
-    color: white;
+.container { 
+    width: 100%; 
+    margin-left: 50%;
+     
+    background-color: red ;
 }
 
-#box {
-    padding: 10px;
-    background-color: mediumpurple;
-    margin-top: 100px;
-    text-align: center;
-    display: inline-block;
-}
-
-header {
-    margin-top: 30px;
-}
-
-#lista-tarefas {
-    text-align: center;
-    display: inline-block;
-}
 
 #funcionamento {
     font-style: italic;
-    margin-top: 10px;
 }
 
 .completed {
@@ -37,20 +22,21 @@ header {
 }
 
 .selected {
-    background-color: rgb(128, 128, 128)
+    background-color: blanchedalmond;
 }
 
 .selectedTask {
-    background-color: rgb(128, 128, 128)
+    background-color: blanchedalmond;
 }
 
 footer {
-    background-color: mediumpurple;
+    background-color: #AD6A6C;
     color: white;
-    padding: 1px;
+    padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
     left: 0;
     text-align: center;
 }
+

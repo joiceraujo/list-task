@@ -8,22 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="box">
-    <header>
+    <div className="header">
+        <header>
         <h1>Minha Lista de Tarefas</h1>
-        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
-    </header>
-    <div>
-        <input type="text" name="task" id="texto-tarefa">
     </div>
-    <div>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        </header>
+        <input type="text" name="task" id="texto-tarefa">
+
         <ol id="lista-tarefas">
             <li>Git</li>
             <li>HTML</li>
             <li>CSS</li>
         </ol>
-    </div>
-    <div>
+    
         <button id="criar-tarefa">Adicionar</button>
         <button id="apaga-tudo">Limpar lista</button>
         <button id="remover-finalizados">Tarefas Finalizadas</button>
@@ -31,12 +29,14 @@
         <button id="mover-cima"><img src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-arrow-arrows-those-icons-lineal-color-those-icons-9.png"/></button>
         <button id="mover-baixo"><img src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-arrow-arrows-those-icons-lineal-color-those-icons-13.png"/></button>
         <button id="remover-selecionado"><img src="https://img.icons8.com/offices/30/000000/xbox-x.png"/></button>
-    </div>
+    
     <script src="script.js"></script>
-</div>
+
 <footer id="footer">
     <h3>Desenvolvido por Joice Araújo</h3>
-    <a target="_blank" href="https://www.linkedin.com/in/joicearaujodev/">Linkedin</a>
+    <a target="_blank" href="https://www.linkedin.com/in/joicearaujodev/">
+    <img src="/icons8-linkedin-2.svg">
+    </a>
 </footer>
 </body>
 </html>
